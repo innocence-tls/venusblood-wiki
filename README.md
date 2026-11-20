@@ -27,6 +27,10 @@ python build.py
 
 Затем откройте `_site/index.html` в браузере. Все ссылки относительные, сайт работает с диска.
 
+## Добавить игру серии
+
+Добавьте запись в `content/series.yaml` в порядке выхода: `title`, `slug`, `year`, `summary`, при наличии `international`, `url`, `image`. Обложку положите в `originals/cover-<slug>.webp` и выполните `python tools/blur_covers.py`.
+
 ## Добавить статью
 
 Создайте `content/articles/<адрес>.md`. Имя файла станет адресом страницы: `sinmara.md` → `sinmara.html`.

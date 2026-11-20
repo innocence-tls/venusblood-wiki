@@ -229,22 +229,9 @@ mechanics = """<div class="wrap">""" + heading("Frontier", "Механика Fro
 mechanics = mechanics.replace('<h2 id="ambush">', '<figure class="guidepic"><a href="art/recruit.webp"><img src="art/recruit.webp" alt="Экран найма с ячейками медальонов и кнопкой «Нанять»"></a><figcaption>Экран найма в русском переводе. Нажмите на снимок, чтобы рассмотреть обозначения.</figcaption></figure><h2 id="ambush">')
 page("sources.html","Об энциклопедии","","<div class='wrap essay'><article><h1>Об энциклопедии</h1><p>Русская фанатская вики VenusBlood посвящена играм Dual Tail. Здесь можно познакомиться с героями, разобраться в правилах войны и проследить за историей серии.</p><h2>У разработчиков</h2><ul><li><a href='https://ninetail.info/info_about.htm'>Ninetail и Dual Tail · история студии</a></li><li><a href='https://ninetail.info/tde10/'>Frontier · мир, персонажи и ход кампании</a></li><li><a href='https://store.steampowered.com/app/1189440/'>Frontier International в Steam</a></li></ul></article></div>")
 series = load("series")
-years = [2007,2008,2009,2010,2011,2012,2013,2014,2016,2017,2018,2022,2025]
-edition = {"frontier":"FRONTIER International · 2019","hypno":"HOLLOW International · 2021",
-           "gaia":"GAIA International · 2023","ragnarok":"RAGNAROK International","lagoon":"LAGOON International"}
-summaries = {
-    "venusblood":"Первая игра Dual Tail в серии. В центре истории — две сестры-принцессы.",
-    "chimera":"Вторая часть серии. Её героини — воительницы.",
-    "desire":"Третья игра серии об участи побеждённых богинь.",
-    "empire":"Четвёртая часть основной серии продолжает тему противостояния с богинями.",
-    "abyss":"В ABYSS армия пополняется за счёт рождения новых демонов.",
-    "gaia":"Священная драконья империя объявляет эфир ересью и начинает войну с Энергией. Игрок защищает подземную базу от вторжения.",
-    "hypno":"Стратегия о захвате вражеских владений. Международное издание вышло под названием HOLLOW.",
-    "ragnarok":"Стратегия о вторжении в земли богинь. У игры есть отдельное международное издание.",
-    "brave":"Ролевая игра серии, в которой герои создают и развивают своё войско.",
-    "lagoon":"Драконья принцесса, потерявшая всё, отправляется мстить. Это одиннадцатая часть основной серии.",
-    "savior":"Стратегия о судьбе героев, перешедших на сторону тьмы.",
-    "valkyrie":"Игра Dual Tail о пробуждении воительниц, выпущенная вслед за Savior."}
+years = [row["year"] for row in series]
+edition = {row["slug"]: row["international"] for row in series if row.get("international")}
+summaries = {row["slug"]: row.get("summary", "") for row in series}
 tiles = []
 search_rows = []
 def register(title,url,kind,aliases=""):

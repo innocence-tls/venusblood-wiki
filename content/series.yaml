@@ -1,64 +1,94 @@
 - title: VenusBlood
   slug: venusblood
+  year: 2007
+  summary: Первая игра Dual Tail в серии. В центре истории — две сестры-принцессы.
   url: https://ninetail.info/td01/venusblood.html
   image: https://ninetail.info/img_home/title_td01.jpg
 
 - title: CHIMERA
   slug: chimera
+  year: 2008
+  summary: Вторая часть серии. Её героини — воительницы.
   url: https://ninetail.info/td04/index.htm
   image: https://ninetail.info/img_home/title_td04.jpg
 
 - title: DESIRE
   slug: desire
+  year: 2009
+  summary: Третья игра серии об участи побеждённых богинь.
   url: https://ninetail.info/td07/index.htm
   image: https://ninetail.info/img_home/title_td07.jpg
 
 - title: EMPIRE
   slug: empire
+  year: 2010
+  summary: Четвёртая часть основной серии продолжает тему противостояния с богинями.
   url: https://ninetail.info/td08/VenusBlood-EMPIRE-.html
   image: https://ninetail.info/img_home/title_td08.jpg
 
 - title: ABYSS
   slug: abyss
+  year: 2011
+  summary: В ABYSS армия пополняется за счёт рождения новых демонов.
   url: https://ninetail.info/td09/VenusBlood-ABYSS-.html
   image: https://ninetail.info/img_home/title_td09.jpg
 
 - title: FRONTIER
   slug: frontier
+  year: 2012
+  international: FRONTIER International · 2019
   url: https://ninetail.info/td10/VenusBlood-FRONTIER-.html
   image: https://ninetail.info/img_home/title_td10.jpg
 
 - title: GAIA
   slug: gaia
+  year: 2013
+  summary: Священная драконья империя объявляет эфир ересью и начинает войну с Энергией. Игрок защищает подземную базу от вторжения.
+  international: GAIA International · 2023
   url: https://ninetail.info/td11/VenusBloodGAIA.html
   image: https://ninetail.info/img_home/title_td11.jpg
 
 - title: HYPNO
   slug: hypno
+  year: 2014
+  summary: Стратегия о захвате вражеских владений. Международное издание вышло под названием HOLLOW.
+  international: HOLLOW International · 2021
   url: https://ninetail.info/td12/VenusBlood-HYPNO-.html
   image: https://ninetail.info/img_home/title_td12.jpg
 
 - title: RAGNAROK
   slug: ragnarok
+  year: 2016
+  summary: Стратегия о вторжении в земли богинь. У игры есть отдельное международное издание.
+  international: RAGNAROK International
   url: https://ninetail.info/td13/index.html
   image: https://ninetail.info/img_home/title_td13.jpg
 
 - title: BRAVE
   slug: brave
+  year: 2017
+  summary: Ролевая игра серии, в которой герои создают и развивают своё войско.
   url: https://ninetail.info/td14/index.php
   image: https://ninetail.info/img_home/title_td14.jpg
 
 - title: Lagoon
   slug: lagoon
+  year: 2018
+  summary: Драконья принцесса, потерявшая всё, отправляется мстить. Это одиннадцатая часть основной серии.
+  international: LAGOON International
   url: https://ninetail.info/td15/index.html
   image: https://ninetail.info/img_home/title_td15.jpg
 
 - title: Savior
   slug: savior
+  year: 2022
+  summary: Стратегия о судьбе героев, перешедших на сторону тьмы.
   url: https://ninetail.info/td16/VenusBloodSavior.html
   image: https://ninetail.info/img_home/title_td16.jpg
 
 - title: VALKYRIE
   slug: valkyrie
+  year: 2025
+  summary: Игра Dual Tail о пробуждении воительниц, выпущенная вслед за Savior.
   url: https://ninetail.info/td17/index.html
   image: https://ninetail.info/td17/images/pak.jpg
