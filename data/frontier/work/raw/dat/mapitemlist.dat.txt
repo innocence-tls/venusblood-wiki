@@ -1,0 +1,1198 @@
+(const) [
+ (const) %[
+  "income" => 0,
+  "image" => (const) [
+   (const) %[
+    "file" => "map_c00"
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ]
+  ],
+  "type" => (const) %[
+   "level" => 1,
+   "state" => 0
+  ],
+  "name" => "Vacant Land",
+  "index" => 0,
+  "view" => 1,
+  "enable" => 1,
+  "effect" => (const) [
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "specialeffecttag" => (const) [
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "addHP" => 0,
+  "cost" => 0,
+  "level" => 0,
+  "id" => "bu_00"
+ ],
+ (const) %[
+  "income" => 40,
+  "image" => (const) [
+   (const) %[
+    "file" => "map_c01"
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ]
+  ],
+  "effect" => (const) [
+   "gmp.gold.add=40; gmp.food.add=20;",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "specialeffecttag" => (const) [
+   "Gold +40",
+   "Food +20",
+   "",
+   "",
+   ""
+  ],
+  "type" => (const) %[
+   "level" => 1,
+   "state" => 1
+  ],
+  "addHP" => 10,
+  "cost" => 250,
+  "level" => 1,
+  "name" => "Farmland",
+  "index" => 1,
+  "view" => 1,
+  "enable" => 1,
+  "id" => "bu_01"
+ ],
+ (const) %[
+  "income" => 40,
+  "image" => (const) [
+   (const) %[
+    "file" => "map_c02"
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ]
+  ],
+  "effect" => (const) [
+   "gmp.gold.add=40; gmp.resource.add=20;",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "specialeffecttag" => (const) [
+   "Gold +40",
+   "Resource +20",
+   "",
+   "",
+   ""
+  ],
+  "type" => (const) %[
+   "level" => 1,
+   "state" => 4
+  ],
+  "addHP" => 50,
+  "cost" => 250,
+  "level" => 1,
+  "name" => "Logging Site",
+  "index" => 2,
+  "view" => 1,
+  "enable" => 1,
+  "id" => "bu_02"
+ ],
+ (const) %[
+  "income" => 100,
+  "image" => (const) [
+   (const) %[
+    "file" => "map_c03"
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ]
+  ],
+  "effect" => (const) [
+   "gmp.gold.add=100; gmp.resource.add=30;",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "specialeffecttag" => (const) [
+   "Gold +100",
+   "Resource +30",
+   "",
+   "",
+   ""
+  ],
+  "type" => (const) %[
+   "level" => 1,
+   "state" => 5
+  ],
+  "addHP" => 50,
+  "cost" => 250,
+  "level" => 1,
+  "name" => "Mining Site",
+  "index" => 3,
+  "view" => 1,
+  "enable" => 1,
+  "id" => "bu_03"
+ ],
+ (const) %[
+  "income" => 0,
+  "image" => (const) [
+   (const) %[
+    "file" => "map_c04"
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ]
+  ],
+  "effect" => (const) [
+   "gmp.energy.add=40; gmp.resource.add=20;",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "specialeffecttag" => (const) [
+   "Magic +40",
+   "Resource +30",
+   "",
+   "",
+   ""
+  ],
+  "type" => (const) %[
+   "level" => 1,
+   "state" => 3
+  ],
+  "addHP" => 50,
+  "cost" => 250,
+  "level" => 1,
+  "name" => "Academy",
+  "index" => 4,
+  "view" => 1,
+  "enable" => 1,
+  "id" => "bu_04"
+ ],
+ (const) %[
+  "income" => 150,
+  "image" => (const) [
+   (const) %[
+    "file" => "map_c05"
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ]
+  ],
+  "effect" => (const) [
+   "gmp.gold.add=150;",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "specialeffecttag" => (const) [
+   "Gold +150",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "type" => (const) %[
+   "level" => 1,
+   "state" => 2
+  ],
+  "addHP" => 50,
+  "cost" => 250,
+  "level" => 1,
+  "name" => "Store",
+  "index" => 5,
+  "view" => 1,
+  "enable" => 1,
+  "id" => "bu_05"
+ ],
+ (const) %[
+  "income" => 20,
+  "image" => (const) [
+   (const) %[
+    "file" => "map_c06"
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ]
+  ],
+  "effect" => (const) [
+   "gmp.gold.add=20; gmp.addhp=5;",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "specialeffecttag" => (const) [
+   "Gold +20",
+   "Cure +5/Turn",
+   "",
+   "",
+   ""
+  ],
+  "type" => (const) %[
+   "level" => 1,
+   "state" => 0
+  ],
+  "addHP" => 50,
+  "cost" => 250,
+  "level" => 1,
+  "name" => "House",
+  "index" => 6,
+  "view" => 1,
+  "enable" => 1,
+  "id" => "bu_06"
+ ],
+ (const) %[
+  "income" => 0,
+  "image" => (const) [
+   (const) %[
+    "file" => "map_c07"
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ]
+  ],
+  "effect" => (const) [
+   "gmp.addexp=5; gmp.addLNDhp=5;",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "specialeffecttag" => (const) [
+   "EXP +5/Turn",
+   "Wall +5",
+   "",
+   "",
+   ""
+  ],
+  "type" => (const) %[
+   "level" => 2,
+   "state" => 1
+  ],
+  "addHP" => 100,
+  "cost" => 1000,
+  "level" => 2,
+  "name" => "Training Ground",
+  "index" => 7,
+  "view" => 1,
+  "enable" => 1,
+  "id" => "bu_07"
+ ],
+ (const) %[
+  "income" => 150,
+  "image" => (const) [
+   (const) %[
+    "file" => "map_c08"
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ]
+  ],
+  "effect" => (const) [
+   "gmp.gold.add=150; gmp.food.add=30;",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "specialeffecttag" => (const) [
+   "Gold +150",
+   "Food +30",
+   "",
+   "",
+   ""
+  ],
+  "type" => (const) %[
+   "level" => 2,
+   "state" => 4
+  ],
+  "addHP" => 50,
+  "cost" => 1000,
+  "level" => 2,
+  "name" => "Ranch",
+  "index" => 8,
+  "view" => 1,
+  "enable" => 1,
+  "id" => "bu_08"
+ ],
+ (const) %[
+  "income" => 50,
+  "image" => (const) [
+   (const) %[
+    "file" => "map_c09"
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ]
+  ],
+  "effect" => (const) [
+   "gmp.gold.add=50; gmp.energy.add=40;",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "specialeffecttag" => (const) [
+   "Gold +50",
+   "Magic +40",
+   "",
+   "",
+   ""
+  ],
+  "type" => (const) %[
+   "level" => 2,
+   "state" => 4
+  ],
+  "addHP" => 50,
+  "cost" => 1000,
+  "level" => 2,
+  "name" => "Monster Stable",
+  "index" => 9,
+  "view" => 1,
+  "enable" => 1,
+  "id" => "bu_09"
+ ],
+ (const) %[
+  "income" => 0,
+  "image" => (const) [
+   (const) %[
+    "file" => "map_c10"
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ]
+  ],
+  "effect" => (const) [
+   "gmp.addhp=10;",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "specialeffecttag" => (const) [
+   "Cure +10/Turn",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "type" => (const) %[
+   "level" => 2,
+   "state" => 3
+  ],
+  "addHP" => 50,
+  "cost" => 1000,
+  "level" => 2,
+  "name" => "Healing House",
+  "index" => 10,
+  "view" => 1,
+  "enable" => 1,
+  "id" => "bu_10"
+ ],
+ (const) %[
+  "income" => 0,
+  "image" => (const) [
+   (const) %[
+    "file" => "map_c11"
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ]
+  ],
+  "effect" => (const) [
+   "gmp.addfc=10; gmp.energy.add=25;",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "specialeffecttag" => (const) [
+   "Force up +10/Turn",
+   "Magic +25",
+   "",
+   "",
+   ""
+  ],
+  "type" => (const) %[
+   "level" => 2,
+   "state" => 2
+  ],
+  "addHP" => 50,
+  "cost" => 1000,
+  "level" => 2,
+  "name" => "Church",
+  "index" => 11,
+  "view" => 1,
+  "enable" => 1,
+  "id" => "bu_11"
+ ],
+ (const) %[
+  "income" => 0,
+  "image" => (const) [
+   (const) %[
+    "file" => "map_c12"
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ]
+  ],
+  "effect" => (const) [
+   "gmp.addhp=5; gmp.addexp=5;gmp.addLNDhp=10;",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "specialeffecttag" => (const) [
+   "Cure&EXP +5/Turn",
+   "Wall +10",
+   "",
+   "",
+   ""
+  ],
+  "type" => (const) %[
+   "level" => 2,
+   "state" => 0
+  ],
+  "addHP" => 150,
+  "cost" => 4000,
+  "level" => 2,
+  "name" => "Fortress",
+  "index" => 12,
+  "view" => 1,
+  "enable" => 1,
+  "id" => "bu_12"
+ ],
+ (const) %[
+  "income" => 150,
+  "image" => (const) [
+   (const) %[
+    "file" => "map_c13"
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ]
+  ],
+  "effect" => (const) [
+   "gmp.gold.add=150; gmp.food.add=40;",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "specialeffecttag" => (const) [
+   "Gold +150",
+   "Food +40",
+   "",
+   "",
+   ""
+  ],
+  "type" => (const) %[
+   "level" => 3,
+   "state" => 1
+  ],
+  "addHP" => 50,
+  "cost" => 4000,
+  "level" => 3,
+  "name" => "Market",
+  "index" => 13,
+  "view" => 1,
+  "enable" => 1,
+  "id" => "bu_13"
+ ],
+ (const) %[
+  "income" => 150,
+  "image" => (const) [
+   (const) %[
+    "file" => "map_c14"
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ]
+  ],
+  "effect" => (const) [
+   "gmp.gold.add=150; gmp.resource.add=40;",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "specialeffecttag" => (const) [
+   "Gold +150",
+   "Resource +40",
+   "",
+   "",
+   ""
+  ],
+  "type" => (const) %[
+   "level" => 3,
+   "state" => 4
+  ],
+  "addHP" => 50,
+  "cost" => 4000,
+  "level" => 3,
+  "name" => "Blacksmith",
+  "index" => 14,
+  "view" => 1,
+  "enable" => 1,
+  "id" => "bu_14"
+ ],
+ (const) %[
+  "income" => 150,
+  "image" => (const) [
+   (const) %[
+    "file" => "map_c15"
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ]
+  ],
+  "effect" => (const) [
+   "gmp.gold.add=150; gmp.resource.add=75;",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "specialeffecttag" => (const) [
+   "Gold +150",
+   "Resource +75",
+   "",
+   "",
+   ""
+  ],
+  "type" => (const) %[
+   "level" => 3,
+   "state" => 5
+  ],
+  "addHP" => 50,
+  "cost" => 4000,
+  "level" => 3,
+  "name" => "Carpenter",
+  "index" => 15,
+  "view" => 1,
+  "enable" => 1,
+  "id" => "bu_15"
+ ],
+ (const) %[
+  "income" => 0,
+  "image" => (const) [
+   (const) %[
+    "file" => "map_c16"
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ]
+  ],
+  "effect" => (const) [
+   "gmp.energy.add=100;",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "specialeffecttag" => (const) [
+   "Magic +100",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "type" => (const) %[
+   "level" => 3,
+   "state" => 3
+  ],
+  "addHP" => 100,
+  "cost" => 4000,
+  "level" => 3,
+  "name" => "Sage\'s Tower",
+  "index" => 16,
+  "view" => 1,
+  "enable" => 1,
+  "id" => "bu_16"
+ ],
+ (const) %[
+  "income" => 400,
+  "image" => (const) [
+   (const) %[
+    "file" => "map_c17"
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ]
+  ],
+  "effect" => (const) [
+   "gmp.gold.add=400;",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "specialeffecttag" => (const) [
+   "Gold +400",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "type" => (const) %[
+   "level" => 3,
+   "state" => 2
+  ],
+  "addHP" => 100,
+  "cost" => 10000,
+  "level" => 3,
+  "name" => "Palace",
+  "index" => 17,
+  "view" => 1,
+  "enable" => 1,
+  "id" => "bu_17"
+ ],
+ (const) %[
+  "income" => 0,
+  "image" => (const) [
+   (const) %[
+    "file" => "map_c18"
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ]
+  ],
+  "effect" => (const) [
+   "gmp.addhp=10; gmp.addexp=10; gmp.addLNDhp=25;",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "specialeffecttag" => (const) [
+   "Cure&EXP +10/Turn",
+   "Wall +25",
+   "",
+   "",
+   ""
+  ],
+  "type" => (const) %[
+   "level" => 3,
+   "state" => 2
+  ],
+  "addHP" => 200,
+  "cost" => 20000,
+  "level" => 3,
+  "name" => "Castle",
+  "index" => 18,
+  "view" => 1,
+  "enable" => 1,
+  "id" => "bu_18"
+ ],
+ (const) %[
+  "income" => 500,
+  "image" => (const) [
+   (const) %[
+    "file" => "map_c19"
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ]
+  ],
+  "effect" => (const) [
+   "gmp.gold.add=500; gmp.addexp=5;",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "specialeffecttag" => (const) [
+   "Gold +500",
+   "EXP +5/Turn",
+   "",
+   "",
+   ""
+  ],
+  "type" => (const) %[
+   "level" => 4,
+   "state" => 1
+  ],
+  "addHP" => 150,
+  "cost" => 20000,
+  "level" => 4,
+  "name" => "Colosseum",
+  "index" => 19,
+  "view" => 1,
+  "enable" => 1,
+  "id" => "bu_19"
+ ],
+ (const) %[
+  "income" => 0,
+  "image" => (const) [
+   (const) %[
+    "file" => "map_c20"
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ]
+  ],
+  "effect" => (const) [
+   "gmp.energy.add=80; gmp.resource.add=80;",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "specialeffecttag" => (const) [
+   "Magic +80",
+   "Resource +80",
+   "",
+   "",
+   ""
+  ],
+  "type" => (const) %[
+   "level" => 4,
+   "state" => 4
+  ],
+  "addHP" => 50,
+  "cost" => 10000,
+  "level" => 4,
+  "name" => "Monster Mansion",
+  "index" => 20,
+  "view" => 1,
+  "enable" => 1,
+  "id" => "bu_20"
+ ],
+ (const) %[
+  "income" => 150,
+  "image" => (const) [
+   (const) %[
+    "file" => "map_c21"
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ]
+  ],
+  "effect" => (const) [
+   "gmp.addhp=15; gmp.gold.add=150;",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "specialeffecttag" => (const) [
+   "Cure +50/Turn",
+   "Gold +150",
+   "",
+   "",
+   ""
+  ],
+  "type" => (const) %[
+   "level" => 4,
+   "state" => 5
+  ],
+  "addHP" => 50,
+  "cost" => 10000,
+  "level" => 4,
+  "name" => "Hot Spring",
+  "index" => 21,
+  "view" => 1,
+  "enable" => 1,
+  "id" => "bu_21"
+ ],
+ (const) %[
+  "income" => 400,
+  "image" => (const) [
+   (const) %[
+    "file" => "map_c22"
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ]
+  ],
+  "effect" => (const) [
+   "gmp.gold.add=400; gmp.food.add=120;",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "specialeffecttag" => (const) [
+   "Gold +400",
+   "Food +120",
+   "",
+   "",
+   ""
+  ],
+  "type" => (const) %[
+   "level" => 4,
+   "state" => 3
+  ],
+  "addHP" => 100,
+  "cost" => 10000,
+  "level" => 4,
+  "name" => "Harbor",
+  "index" => 22,
+  "view" => 1,
+  "enable" => 1,
+  "id" => "bu_22"
+ ],
+ (const) %[
+  "income" => 400,
+  "image" => (const) [
+   (const) %[
+    "file" => "map_c23"
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ]
+  ],
+  "effect" => (const) [
+   "gmp.gold.add=400; gmp.energy.add=60;",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "specialeffecttag" => (const) [
+   "Gold +400",
+   "Magic +60",
+   "",
+   "",
+   ""
+  ],
+  "type" => (const) %[
+   "level" => 4,
+   "state" => 2
+  ],
+  "addHP" => 50,
+  "cost" => 20000,
+  "level" => 4,
+  "name" => "Hotel",
+  "index" => 23,
+  "view" => 1,
+  "enable" => 1,
+  "id" => "bu_23"
+ ],
+ (const) %[
+  "income" => 100,
+  "image" => (const) [
+   (const) %[
+    "file" => "map_c24"
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ]
+  ],
+  "effect" => (const) [
+   "gmp.gold.add=100; gmp.food.add=100; gmp.energy.add=100; gmp.resource.add=100;",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "specialeffecttag" => (const) [
+   "Food&Magic +100",
+   "Resource&Gold +100",
+   "",
+   "",
+   ""
+  ],
+  "type" => (const) %[
+   "level" => 5,
+   "state" => 5
+  ],
+  "addHP" => 150,
+  "cost" => 30000,
+  "level" => 5,
+  "name" => "Dragon\'s Den",
+  "index" => 24,
+  "view" => 1,
+  "enable" => 1,
+  "id" => "bu_24"
+ ],
+ (const) %[
+  "income" => 1000,
+  "image" => (const) [
+   (const) %[
+    "file" => "map_c25"
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ],
+   (const) %[
+    "file" => ""
+   ]
+  ],
+  "effect" => (const) [
+   "gmp.gold.add=1000; gmp.addhp=5;",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "specialeffecttag" => (const) [
+   "Gold +1000",
+   "Cure +5/Turn",
+   "",
+   "",
+   ""
+  ],
+  "type" => (const) %[
+   "level" => 5,
+   "state" => 3
+  ],
+  "addHP" => 100,
+  "cost" => 30000,
+  "level" => 5,
+  "name" => "Temple",
+  "index" => 25,
+  "view" => 1,
+  "enable" => 1,
+  "id" => "bu_25"
+ ]
+]
